@@ -1,0 +1,18 @@
+T1000-Roboter
+
+Wenn man unser Programm so erweitern soll, damit man T1000-Roboter herstellen will, muss
+man:
+1. Erstellen der Klasse T1000-Roboter
+
+2. Erben von der Superklasse BaseRobot
+
+3. Code schreiben für die passenden Funktionalitäten (think, speak Methods)
+
+4. In RobotType (Enum) muss der T1000 eingetragen werden
+
+5. Eine ArrayList muss angelegt werden für und über die füllen Methode mit id gefüllt werden
+
+6. Und zu guter Letzt muss man nun bei der Methode erstelleRoboter eine Abfrage
+Machen, die, wenn der gewünschte Roboter ein T1000 ist, eine id aus dem ArrayList holt
+mit der Methode IdZuweisen. Dann wird ein T1000 erstellt und
+zurückgegeben, mit dem Namen des Roboters der übergeben wird und der id.
